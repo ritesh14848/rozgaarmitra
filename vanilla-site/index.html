@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RozgaarMitra (रोज़गार मित्र) – Skilled Trades Job Matching Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Sticky Top Navigation -->
+  <nav id="app-navbar" class="navbar"></nav>
+
+  <!-- Dynamic Page Content -->
+  <main id="app-main" style="flex: 1;"></main>
+
+  <!-- Conditional Footer (Rendered only on Home & Dashboards) -->
+  <footer id="app-footer" class="footer">
+    <div class="wide-container">
+      <div class="footer-grid">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
+            <div style="background: linear-gradient(135deg, var(--accent-orange) 0%, #f97316 100%); width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white;">🔧</div>
+            <span style="font-size: 18px; font-weight: 800; color: white;">RozgaarMitra</span>
+          </div>
+          <p style="font-size: 14px; line-height: 1.6; color: #94a3b8; max-width: 320px;">
+            Connecting verified, skilled tradespeople—electricians, plumbers, carpenters, welders, and technicians—directly with local homeowners and businesses.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-title">Popular Trades</div>
+          <ul class="footer-links">
+            <li><a href="#browse">Electrician Jobs</a></li>
+            <li><a href="#browse">Plumber Jobs</a></li>
+            <li><a href="#browse">Carpenter Jobs</a></li>
+            <li><a href="#browse">Painter Jobs</a></li>
+            <li><a href="#browse">Welder Jobs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="#browse">Search Open Jobs</a></li>
+            <li><a href="#register-worker">Join as a Skilled Worker</a></li>
+            <li><a href="#register-employer">Post Job as Employer</a></li>
+            <li><a href="#login">Account Login</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Trust &amp; Verification</div>
+          <ul class="footer-links" style="color: #cbd5e1; font-size: 14px;">
+            <li style="margin-bottom: 8px;">✓ Direct local hiring</li>
+            <li style="margin-bottom: 8px;">✓ Transparent pay &amp; terms</li>
+            <li style="margin-bottom: 8px;">✓ No contractor commissions</li>
+            <li>✓ 100% Free platform</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 RozgaarMitra. Built for skilled trades, artisans, and Indian industry.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Stack -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="store.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
